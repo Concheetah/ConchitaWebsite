@@ -1,7 +1,11 @@
+body{
+  margin: 0;
+}
 .container {
     margin: auto;
     max-width: 500px;
     font-family: sans-serif;
+    color: gray;
   }
 
 .heading {
@@ -12,19 +16,33 @@
     display: flex;
     list-style: none;
     padding-left: 0;
+    background-color: cornflowerblue;
+    align-items: baseline;
   }
 
 .nav-link-item {
-    padding-right: 2rem;
+    flex:1;
+    width: 100%;
+    background-color: blue;
+    font-family: sans-serif;
+    padding: 1rem;
+
   }
   
 .nav-link-text {
-    color: darkslateblue;
+    color: white;
+    text-decoration-line: none;
   }
 
 .site-title {
     font-size: 3rem;
-    color: gray;
+    color: white;
+    background-color: cornflowerblue;
     font-weight: 700;
-    margin: 3rem 0;
+    padding-left: 35rem;
+  }
+
+  .headContainer{
+    background-color: cornflowerblue;
+    padding: 1rem;
   }
