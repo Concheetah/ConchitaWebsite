@@ -4,6 +4,10 @@
     padding-right: 40rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    z-index:0;
+    position: absolute;
+    top: 15rem;
+
 }
 
 .div1{
@@ -12,12 +16,84 @@
     padding-right: 40rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    z-index:0;
+    position:absolute;
+    top:0;
 }
 
 .div3{
     background-color: 	plum;
     padding-left: 15rem;
     padding-right: 40rem;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+
+    z-index: 0;
+    position:absolute;
+    top: 38rem;
 }
+
+@keyframes square {
+    0%   {left:0px; top:0px;}
+    25%  {left:8rem; top:0px;}
+    50%  {left:8rem; top:8rem;}
+    75%  {left:0px; top:8rem;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  .square {
+    z-index:200;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: deepskyblue;
+    animation-name: square;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes triangle {
+    0%   {left:70rem; top:0;}
+    33%  {left:80rem; top:8rem; transform:rotate(135deg);}
+    66%  {left:60rem; top:8rem; transform:rotate(225deg);}
+    100% {left:70rem; top:0; transform:rotate(360deg); }
+  }
+
+  .arrow-up {
+    position: absolute;
+    left: 70rem;
+    top: 0;
+    z-index:200;
+    width: 0; 
+    height: 0; 
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 5rem solid deepskyblue;
+    animation-name: triangle;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+
+  @keyframes circle {
+    0%   {left:0rem; top:20rem;}
+    50%  {left:8rem; top:20rem;}
+    100% {left:0rem; top:20rem; }
+  }
+
+  .circle {
+    z-index:200;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+    
+  

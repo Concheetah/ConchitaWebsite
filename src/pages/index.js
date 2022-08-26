@@ -4,6 +4,7 @@ import * as React from 'react'
 import BlockBlue from '../components/blockBlue.jsx'
 import BlockPeach from '../components/blockPeach.jsx'
 import BlockPurple from '../components/blockPurple.jsx'
+import '../styles/styles.css'
 
 
 
@@ -11,7 +12,11 @@ const IndexPage = () => {
 
   return (
     <>
-    <BlockBlue>
+    <div className='square'></div>
+    <div className="arrow-up"></div>
+    <div className='circle'></div>
+
+    <BlockBlue >
         <h1>Conchita's portofolio</h1>
         Hello! This is my portofolio website. I am an enthusiastic, empathetic, dynamic communication designer with a technical background.
         You can scroll down to find various items of information about me. Enjoy!
@@ -31,7 +36,6 @@ const IndexPage = () => {
       <div style={{padding:'1rem', paddingLeft:'5rem'}}>
         <StaticImage src="../images/board-game.png" width={'9rem'} alt={'boardgame'}/>
       </div>
-
     </BlockPurple>
     </>
 
