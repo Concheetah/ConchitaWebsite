@@ -37,11 +37,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
-  position: sticky;
+  background-color: lightgray;
+  position: fixed;
   width: 100%;
-  z-index: 200;
-
+  bottom:0;
+  position: -webkit-sticky; 
 }
 
 @keyframes square {

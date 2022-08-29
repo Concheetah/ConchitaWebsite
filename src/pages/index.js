@@ -4,6 +4,7 @@ import * as React from 'react'
 import BlockBlue from '../components/blockBlue.jsx'
 import BlockPeach from '../components/blockPeach.jsx'
 import BlockPurple from '../components/blockPurple.jsx'
+import Contact from '../components/Contact.jsx'
 import '../styles/styles.css'
 
 
@@ -37,6 +38,9 @@ const IndexPage = () => {
         <StaticImage src="../images/board-game.png" width={'9rem'} alt={'boardgame'}/>
       </div>
     </BlockPurple>
+    <Contact>
+      <a href="https://www.linkedin.com/in/cmartinhoogerwaard/"><img src="linkedin.png" style={{width:'2rem'}}  alt='linkedIn'/></a>
+    </Contact>
     </>
 
   )

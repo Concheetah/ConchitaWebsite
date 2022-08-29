@@ -6,11 +6,9 @@ body{
 
 a{
     text-decoration: none;
-    color: grey;
+    color: lightgray;
 }
 
 a:hover{
     color: white;
 }
-
-
