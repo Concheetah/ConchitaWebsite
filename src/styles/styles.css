@@ -32,6 +32,18 @@
     top: 35rem;
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  position: sticky;
+  width: 100%;
+  z-index: 200;
+
+}
+
 @keyframes square {
     0%   {left:0px; top:0px;}
     25%  {left:8rem; top:0px;}
@@ -54,10 +66,10 @@
   }
 
   @keyframes triangle {
-    0%   {left:80rem; top:0;}
-    33%  {left:90rem; top:8rem; transform:rotate(135deg);}
-    66%  {left:70rem; top:8rem; transform:rotate(225deg);}
-    100% {left:80rem; top:0; transform:rotate(360deg); }
+    0%   {left:90rem; top:0;}
+    33%  {left:100rem; top:8rem; transform:rotate(135deg);}
+    66%  {left:80rem; top:8rem; transform:rotate(225deg);}
+    100% {left:90rem; top:0; transform:rotate(360deg); }
   }
 
   .arrow-up {
