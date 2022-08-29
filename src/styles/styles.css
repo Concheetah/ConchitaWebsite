@@ -5,8 +5,9 @@
     padding-top: 4rem;
     padding-bottom: 3rem;
     z-index:0;
+    width: 100%;
     position: absolute;
-    top: 15rem;
+    top: 13rem;
 
 }
 
@@ -26,10 +27,9 @@
     padding-left: 15rem;
     padding-right: 40rem;
     padding-top: 1rem;
-
     z-index: 0;
     position:absolute;
-    top: 38rem;
+    top: 35rem;
 }
 
 @keyframes square {
@@ -54,10 +54,10 @@
   }
 
   @keyframes triangle {
-    0%   {left:70rem; top:0;}
-    33%  {left:80rem; top:8rem; transform:rotate(135deg);}
-    66%  {left:60rem; top:8rem; transform:rotate(225deg);}
-    100% {left:70rem; top:0; transform:rotate(360deg); }
+    0%   {left:80rem; top:0;}
+    33%  {left:90rem; top:8rem; transform:rotate(135deg);}
+    66%  {left:70rem; top:8rem; transform:rotate(225deg);}
+    100% {left:80rem; top:0; transform:rotate(360deg); }
   }
 
   .arrow-up {
