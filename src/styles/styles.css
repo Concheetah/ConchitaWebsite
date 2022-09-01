@@ -1,7 +1,7 @@
 .div2{
     background-color:	peachpuff;
     padding-left: 15rem;
-    padding-right: 80rem;
+    padding-right: 50rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
     z-index:0;
@@ -35,6 +35,19 @@
     position:absolute;
     top: 35rem;
 }
+
+.div4{
+  background-color: 	lightcoral;
+    padding-left: 15rem;
+    padding-right: 40rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    z-index: 0;
+    width: auto;
+    position:absolute;
+    top: 58rem;
+}
+
 
 .contact{
   display: flex;

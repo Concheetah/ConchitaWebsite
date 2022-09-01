@@ -1,9 +1,7 @@
 // Step 1: Import React
 import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
-import BlockBlue from '../components/blockBlue.jsx'
-import BlockPeach from '../components/blockPeach.jsx'
-import BlockPurple from '../components/blockPurple.jsx'
+import {BlockPurple, BlockPeach, BlockBlue, BlockRed} from '../components/blocks.jsx'
 import Contact from '../components/Contact.jsx'
 import '../styles/styles.css'
 
@@ -35,9 +33,16 @@ const IndexPage = () => {
       serious games. I have published in a conference, had two courses about it and provided two lectures on gamification.       
       <a href="https://graphics.tudelft.nl/Publications-new/2022/CMLPSWBHB22/RestoQuest.paper.final.pdf"> Paperlink</a>
       <div style={{padding:'1rem', paddingLeft:'5rem'}}>
-        <StaticImage src="../images/board-game.png" width={'9rem'} alt={'boardgame'}/>
+        <StaticImage src="../images/board-game.png" width={'9.5rem'} alt={'boardgame'}/>
       </div>
     </BlockPurple>
+    <BlockRed>
+      <h2>Webdevelopment</h2>
+      I started making apps and websites in different language. I started off with Android studio, but later switched to react and react native.
+      <div style={{padding:'1rem', paddingLeft:'5rem'}}>
+        <StaticImage src="../images/world-wide-web.png" width={'9rem'} alt={'web'}></StaticImage>
+      </div>
+    </BlockRed>
     <Contact>
       <a href="https://www.linkedin.com/in/cmartinhoogerwaard/"><img src="linkedin.png" style={{width:'2rem'}}  alt='linkedIn'/></a>
     </Contact>
